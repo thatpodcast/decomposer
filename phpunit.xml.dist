@@ -1,0 +1,12 @@
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Decomposer Unit Tests">
+            <directory>./tests/unit</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>./src/Decomposer/</directory>
+        </whitelist>
+    </filter>
+</phpunit>

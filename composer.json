@@ -20,5 +20,21 @@
             "name": "Dave Marshall",
             "email": "dave@atst.io"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Decomposer\\": "src/Decomposer"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Decomposer\\Tests\\Unit\\": "tests/unit"
+        }
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    }
 }
